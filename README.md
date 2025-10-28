@@ -73,6 +73,6 @@ Abaixo está a lista de todos os colaboradores do Projeto Nexus. Por favor, adic
 | Nome | Função Principal | Contato (GitHub/LinkedIn) |
 | :--- | :--- | :--- |
 | José | Engenheiro de Dados | JoseVF5 |
-| | | |
+| Lucas |Backend | lc-dev2558 |
 | | | |
 | | | |
