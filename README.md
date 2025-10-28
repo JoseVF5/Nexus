@@ -17,7 +17,7 @@ Este projeto foi desenhado para ser um caminho de evolução técnica, levando a
 
 ## 🛠️ Stack Tecnológica
 
-O projeto ILA é construído sobre uma arquitetura robusta e escalável.
+O projeto Nexus é construído sobre uma arquitetura robusta e escalável.
 
 | Componente | Tecnologia Principal | Uso Específico |
 | :--- | :--- | :--- |
@@ -71,6 +71,7 @@ Principais diretórios:
 Abaixo está a lista de todos os colaboradores do Projeto Nexus. Por favor, adicione seu nome e função após ingressar na equipe.
 
 | Nome | Função Principal | Contato (GitHub/LinkedIn) |
+| :--- | :--- | :--- |
 | José | Engenheiro de Dados | JoseVF5 |
 | | | |
 | | | |
