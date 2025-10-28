@@ -2,7 +2,7 @@
 
 ## 💡 Visão Geral do Projeto
 
-O **Projeto ILA (Integração Logística Automatizada)** visa resolver o problema crônico de **lançamentos manuais e erros de digitação** em processos logísticos, que resultam em planilhas eternas, divergência de números e retrabalho.
+O **Projeto Nexus (Integração Logística Automatizada)** visa resolver o problema crônico de **lançamentos manuais e erros de digitação** em processos logísticos, que resultam em planilhas eternas, divergência de números e retrabalho.
 
 Esta solução consiste em desenvolver um sistema robusto de integração entre os módulos de Planejamento de Recursos Empresariais (ERP) e Sistema de Gerenciamento de Armazém (WMS), garantindo a sincronização automática e em tempo real de **Notas Fiscais, Pedidos e Status de Expedição**.
 
@@ -68,12 +68,10 @@ Principais diretórios:
 
 ## 🤝 Colaboradores
 
-Abaixo está a lista de todos os colaboradores do Projeto ILA. Por favor, adicione seu nome e função após ingressar na equipe.
+Abaixo está a lista de todos os colaboradores do Projeto Nexus. Por favor, adicione seu nome e função após ingressar na equipe.
 
 | Nome | Função Principal | Contato (GitHub/LinkedIn) |
-| :--- | :--- | :--- |
-| | | |
-| | | |
+| José | Engenheiro de Dados | JoseVF5 |
 | | | |
 | | | |
 | | | |
