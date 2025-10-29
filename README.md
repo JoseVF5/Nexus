@@ -26,13 +26,13 @@ Este projeto segue uma abordagem ágil, utilizando o Trello para gerenciar o flu
 
 ### Fases do Projeto (Listas no Trello)
 
-1.  **0. Backlog do Produto:** Ideias e funcionalidades priorizadas.
-2.  **1. Iniciação e Planejamento:** Setup do ambiente e arquitetura.
-3.  **2. Em Desenvolvimento (Sprint/Doing):** Tarefas ativas (foco no Python/Backend).
-4.  **3. Testes e Qualidade (QA):** Validação de funcionalidades.
-5.  **4. Pronto para Produção:** Funcionalidades aprovadas.
-6.  **5. Concluído (Done):** Entregas finalizadas.
-7.  **6. Robustez e Melhorias Avançadas:** Foco em escalabilidade e práticas profissionais (DevOps, Microsserviços, Observabilidade).
+1.  **Backlog do Produto:** Ideias e funcionalidades priorizadas.
+2.  **Iniciação e Planejamento:** Setup do ambiente e arquitetura.
+3.  **Em Desenvolvimento (Sprint/Doing):** Tarefas ativas (foco no Python/Backend).
+4.  **Testes e Qualidade (QA):** Validação de funcionalidades.
+5.  **Pronto para Produção:** Funcionalidades aprovadas.
+6.  **Concluído (Done):** Entregas finalizadas.
+7.  **Robustez e Melhorias Avançadas:** Foco em escalabilidade e práticas profissionais (DevOps, Microsserviços, Observabilidade).
 
 ### Áreas de Conhecimento Envolvidas
 
