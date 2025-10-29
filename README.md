@@ -90,7 +90,7 @@ pytest
 
 ## 🤝 Colaboradores
 
-Abaixo está a lista de todos os colaboradores do Projeto Nexus. Por favor, adicione seu nome e função após ingressar na equipe.
+Abaixo está a lista de todos os colaboradores do Projeto Nexus.
 
 | Nome | Função Principal | Contato (GitHub/LinkedIn) |
 | :--- | :--- | :--- |
