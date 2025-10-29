@@ -1,69 +1,91 @@
-# 📦 Nexus: Integração Logística Automatizada (ERP/WMS)
+# 💾 Sistema de Integração ERP/WMS: "Nexus"
 
-## 💡 Visão Geral do Projeto
+## 🌟 Sobre o Projeto
 
-O **Projeto Nexus (Integração Logística Automatizada)** visa resolver o problema crônico de **lançamentos manuais e erros de digitação** em processos logísticos, que resultam em planilhas eternas, divergência de números e retrabalho.
+O **Nexus** é um projeto de desenvolvimento de software em grupo, focado em aprimorar conhecimentos em Python, Devops, Engenharia e Arquitetura de Dados, e Cibersegurança.
 
-Esta solução consiste em desenvolver um sistema robusto de integração entre os módulos de Planejamento de Recursos Empresariais (ERP) e Sistema de Gerenciamento de Armazém (WMS), garantindo a sincronização automática e em tempo real de **Notas Fiscais, Pedidos e Status de Expedição**.
+Nosso principal objetivo é solucionar o problema de **lançamentos manuais e erros de digitação** em sistemas de gestão. Desenvolveremos uma solução de API que simula a integração automática entre módulos de Pedidos, Notas Fiscais e Expedição (características de um ERP/WMS), garantindo a consistência e a rastreabilidade dos dados.
 
-Este projeto foi desenhado para ser um caminho de evolução técnica, levando a equipe do conhecimento básico ao avançado nas tecnologias modernas, utilizando **Python** como linguagem principal.
+### 🎯 Problema & Solução
+| Problema | Solução |
+| :--- | :--- |
+| Planilhas manuais, divergência de números e retrabalho operacional. | Desenvolvimento de uma **API (Python)** para integração automática entre os dados de Pedidos, Notas e Expedição, com validação de dados robusta. |
 
-## 🎯 Objetivos Principais
+## 🛠️ Tecnologias Principais
 
-* **Eliminar Retrabalho:** Automatizar a entrada de dados do pedido/nota fiscal no estoque/expedição.
-* **Consistência de Dados:** Garantir que ERP e WMS trabalhem com as mesmas informações em tempo real.
-* **Rastreabilidade:** Fornecer visibilidade completa do status do pedido, desde a venda até a entrega.
-* **Evolução da Equipe:** Utilizar uma arquitetura moderna e ferramentas avançadas (DevOps, Mensageria, Orquestração) para capacitar a equipe técnica.
-
-## 🛠️ Stack Tecnológica
-
-O projeto Nexus é construído sobre uma arquitetura robusta e escalável.
-
-| Componente | Tecnologia Principal | Uso Específico |
+| Categoria | Tecnologia | Justificativa |
 | :--- | :--- | :--- |
-| **Back-end** | Python (Flask/Django) | API RESTful para manipulação de Pedidos e Notas. |
-| **Banco de Dados** | PostgreSQL | Armazenamento persistente e transacional dos dados ERP/WMS. |
-| **Comunicação** | RabbitMQ / Kafka | Troca de mensagens assíncrona e confiável entre ERP e WMS. |
-| **Engenharia de Dados** | Apache Airflow, Python/Pandas | Orquestração do pipeline de integração ETL. |
-| **Front-end** | React / Vue.js | Interface para visualização e cadastro de pedidos. |
-| **DevOps** | Docker, Docker Compose, GitHub Actions | Containerização, ambientes locais e CI/CD. |
+| **Linguagem Principal** | Python 3.x | Foco no aprendizado de *frameworks* robustos de Backend e análise de dados. |
+| **Backend/API** | FastAPI / Flask (a ser definido) | Alto desempenho e facilidade para criação de endpoints. |
+| **Banco de Dados** | PostgreSQL (Pode ser simulado com SQLite/Docker para dev) | Robusto, amplamente utilizado em ambientes corporativos e com bom suporte a Python. |
+| **Metodologia Ágil**| Scrum/Kanban (Gerenciado no Trello) | Para garantir a transparência, inspeção e adaptação do desenvolvimento. |
+
+## 📋 Estrutura de Desenvolvimento e Metodologia Ágil
+
+Este projeto segue uma abordagem ágil, utilizando o Trello para gerenciar o fluxo de trabalho.
+
+### Fases do Projeto (Listas no Trello)
+
+1.  **0. Backlog do Produto:** Ideias e funcionalidades priorizadas.
+2.  **1. Iniciação e Planejamento:** Setup do ambiente e arquitetura.
+3.  **2. Em Desenvolvimento (Sprint/Doing):** Tarefas ativas (foco no Python/Backend).
+4.  **3. Testes e Qualidade (QA):** Validação de funcionalidades.
+5.  **4. Pronto para Produção:** Funcionalidades aprovadas.
+6.  **5. Concluído (Done):** Entregas finalizadas.
+7.  **6. Robustez e Melhorias Avançadas:** Foco em escalabilidade e práticas profissionais (DevOps, Microsserviços, Observabilidade).
+
+### Áreas de Conhecimento Envolvidas
+
+| Área | Foco de Atuação |
+| :--- | :--- |
+| **Backend (Python)** | Lógica de Negócio, Criação da API, Testes Unitários. |
+| **Engenharia de Dados** | Mapeamento ORM, ETL/Transformação de Dados de Entrada, Logging. |
+| **Arquitetura de Dados** | Modelagem do DB, Otimização de *Queries*, Estrutura de Cache. |
+| **Front-End** | Dashboard de Visualização, Telas de Consulta (se aplicável ao MVP). |
+| **DevOps** | CI/CD, Containerização (Docker), Automação de Infraestrutura. |
+| **Cibersegurança** | Autenticação (JWT), Validação de Input, Varredura de Vulnerabilidades. |
 
 ## 🚀 Como Executar o Projeto Localmente
 
-Para iniciar o desenvolvimento, você precisará apenas do **Docker** e **Docker Compose** instalados.
+### 📌 Pré-requisitos
+
+* Python 3.8+
+* Docker e Docker Compose (recomendado para replicar o ambiente de produção)
+* Git
+
+### ⚙️ Instalação e Configuração
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [LINK DO SEU REPOSITÓRIO]
-    cd projeto-ila
+    git clone [LINK DO REPOSITÓRIO]
+    cd nexus
     ```
 
-2.  **Configurar Variáveis de Ambiente:**
-    * Crie um arquivo `.env` na raiz do projeto e defina as variáveis de ambiente necessárias (credenciais do DB, chaves secretas, etc.).
-
-3.  **Suba os Serviços com Docker Compose:**
+2.  **Configuração do Ambiente (Recomendado via Docker):**
     ```bash
+    # Levanta a aplicação, o banco de dados e dependências
     docker-compose up --build
     ```
-    *Este comando irá construir as imagens e iniciar todos os serviços (Back-end, Front-end, DB, Mensageria).*
+    *Se estiver usando virtual environment (venv) localmente:*
+    ```bash
+    python -m venv venv
+    source venv/bin/activate #ou .\venv\Scripts\activate no Windows
+    pip install -r requirements.txt
+    ```
 
-4.  **Acesse as Aplicações:**
-    * **Back-end API:** `http://localhost:[PORTA_BACKEND]/api/v1/`
-    * **Front-end:** `http://localhost:[PORTA_FRONTEND]`
-    * **RabbitMQ Management:** `http://localhost:[PORTA_RABBITMQ]`
+3.  **Acesso:**
+    * **Backend/API:** `http://localhost:[PORTA_BACKEND]`
+    * **Documentação da API (Swagger/OpenAPI):** `http://localhost:[PORTA_BACKEND]/docs`
+    * **Frontend/Dashboard:** `http://localhost:[PORTA_FRONTEND]` (Se o Front-End for implementado)
 
-## 🛣️ Estrutura do Projeto e Próximos Passos
+## ✅ Executando os Testes
 
-O projeto está organizado em **Épicos (Etapas 1-6)**, com tarefas específicas de Engenharia de Dados, Back-end, Front-end, DevOps e Cibersegurança.
+Para garantir que todas as funcionalidades e a lógica de integração estejam corretas:
 
-**Consulte o quadro Trello para o *status* atual e os *checklists* detalhados de cada tarefa.**
-
-Principais diretórios:
-* `src/api_erp/`: Back-end da API principal (módulos ERP).
-* `src/servico_wms/`: Serviço Python consumidor de mensagens (módulos WMS/Expedição).
-* `src/data_integration/`: Scripts Python e DAGs do Airflow para ETL.
-* `src/frontend/`: Código da aplicação web (Interface do Usuário).
-
+```bash
+# Rodar todos os testes unitários e de integração (Pytest)
+pytest
+```
 ---
 
 ## 🤝 Colaboradores
